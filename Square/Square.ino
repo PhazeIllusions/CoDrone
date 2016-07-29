@@ -32,23 +32,23 @@ void loop() {
     CoDrone.FlightEvent(TakeOff);
     THROTTLE = 100;
     CoDrone.Control();
-    delay(500);
+    delay(2000);
     PITCH = 80;
     THROTTLE = 80;
     CoDrone.Control();
-    delay(500);
+    delay(2000);
     ROLL = 80;
     THROTTLE = 80;
     CoDrone.Control();
-    delay(500);
+    delay(2000);
     PITCH = -80;
     THROTTLE = 80;
     CoDrone.Control();
-    delay(500);
+    delay(2000);
         ROLL = -80;
     THROTTLE = 80;
     CoDrone.Control();
-    delay(500);
+    delay(2000);
     THROTTLE = 80;
   }
 }
